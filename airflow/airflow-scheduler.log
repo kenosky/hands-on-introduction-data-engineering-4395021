@@ -1,0 +1,277 @@
+2023-05-31 18:31:01,970 INFO - Starting the scheduler
+2023-05-31 18:31:01,971 INFO - Processing each file at most -1 times
+2023-05-31 18:31:01,975 INFO - Loaded executor: SequentialExecutor
+2023-05-31 18:31:01,982 INFO - Launched DagFileProcessorManager with pid: 8692
+2023-05-31 18:31:01,984 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 18:31:02,006 INFO - Configured default timezone Timezone('UTC')
+2023-05-31 18:31:15,536 WARNING - The Authorization header is missing: Host: localhost
+Proxy-Connection: Keep-Alive
+X-Request-Id: a808c5e9c8c1d1e4c0714ca5c6d0daef
+X-Real-Ip: 37.228.202.17
+X-Forwarded-For: 37.228.202.17
+X-Forwarded-Host: kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+X-Original-Uri: /
+X-Scheme: https
+Cache-Control: max-age=0
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Referer: https://auth.preview.app.github.dev/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+
+.
+2023-05-31 18:31:15,538 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2023-05-31 18:31:19,021 WARNING - The Authorization header is missing: Host: localhost
+Proxy-Connection: Keep-Alive
+X-Request-Id: 6da984a7547521aab9344d385b54affe
+X-Real-Ip: 37.228.202.17
+X-Forwarded-For: 37.228.202.17
+X-Forwarded-Host: kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Google Chrome";v="113", "Chromium";v="113", "Not-A.Brand";v="24"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+
+.
+2023-05-31 18:31:19,023 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2023-05-31 18:31:39,551 WARNING - The Authorization header is missing: Host: localhost
+Proxy-Connection: Keep-Alive
+X-Request-Id: faac93d83a55d215bc83e2efdd0abd21
+X-Real-Ip: 185.236.200.246
+X-Forwarded-For: 185.236.200.246
+X-Forwarded-Host: kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+X-Original-Uri: /
+X-Scheme: https
+Cache-Control: max-age=0
+Dnt: 1
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Referer: https://auth.preview.app.github.dev/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+
+.
+2023-05-31 18:31:39,552 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2023-05-31 18:31:42,941 WARNING - The Authorization header is missing: Host: localhost
+Proxy-Connection: Keep-Alive
+X-Request-Id: 8b9b40303801421ee52dd5483451f7e9
+X-Real-Ip: 185.236.200.246
+X-Forwarded-For: 185.236.200.246
+X-Forwarded-Host: kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+X-Original-Uri: /
+X-Scheme: https
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Dnt: 1
+Accept: */*
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+
+.
+2023-05-31 18:31:42,942 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2023-05-31 18:31:43,438 WARNING - The Authorization header is missing: Host: localhost
+Proxy-Connection: Keep-Alive
+X-Request-Id: 4535cd9deda4536964a8928fcad81f3f
+X-Real-Ip: 185.236.200.246
+X-Forwarded-For: 185.236.200.246
+X-Forwarded-Host: kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Proto: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="112", "Google Chrome";v="112", "Not:A-Brand";v="99"
+Dnt: 1
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36
+Sec-Ch-Ua-Platform: "macOS"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: https://kenosky-musical-adventure-66679jvxw6f5464-8793.preview.app.github.dev/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+
+.
+2023-05-31 18:31:43,438 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.4/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2023-05-31 18:36:02,160 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 18:41:02,191 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 18:46:02,225 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 18:51:02,256 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 18:56:02,288 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:01:02,319 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:06:02,351 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:11:02,422 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:16:02,452 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:21:02,510 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:26:02,547 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:31:02,581 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:33:46,074 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:33:46,074 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:33:46,074 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:33:46,077 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:33:44.614201+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:33:46,077 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:33:46,106 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:33:53,905 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:33:44.614201+00:00 exited with status success for try_number 1
+2023-05-31 19:33:53,929 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:33:44.614201+00:00, map_index=-1, run_start_date=2023-05-31 19:33:52.987319+00:00, run_end_date=2023-05-31 19:33:53.477816+00:00, run_duration=0.490497, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:33:46.075313+00:00, queued_by_job_id=1, pid=39686
+2023-05-31 19:33:54,109 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:33:44.614201+00:00: manual__2023-05-31T19:33:44.614201+00:00, state:running, queued_at: 2023-05-31 19:33:44.667423+00:00. externally triggered: True> failed
+2023-05-31 19:33:54,110 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:33:44.614201+00:00, run_id=manual__2023-05-31T19:33:44.614201+00:00, run_start_date=2023-05-31 19:33:45.991087+00:00, run_end_date=2023-05-31 19:33:54.110063+00:00, run_duration=8.118976, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:33:44.614201+00:00, data_interval_end=2023-05-31 19:33:44.614201+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:33:54,112 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:34:50,897 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:34:50,903 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:34:50,904 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:34:50,905 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:33:44.614201+00:00', try_number=2, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:34:50,906 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:34:50,933 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:34:58,988 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:33:44.614201+00:00 exited with status success for try_number 2
+2023-05-31 19:34:58,991 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:33:44.614201+00:00, map_index=-1, run_start_date=2023-05-31 19:34:57.908567+00:00, run_end_date=2023-05-31 19:34:58.401275+00:00, run_duration=0.492708, state=failed, executor_state=success, try_number=2, max_tries=1, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:34:50.904748+00:00, queued_by_job_id=1, pid=40079
+2023-05-31 19:34:59,105 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:33:44.614201+00:00: manual__2023-05-31T19:33:44.614201+00:00, state:running, queued_at: 2023-05-31 19:34:50.096013+00:00. externally triggered: True> failed
+2023-05-31 19:34:59,106 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:33:44.614201+00:00, run_id=manual__2023-05-31T19:33:44.614201+00:00, run_start_date=2023-05-31 19:34:50.827068+00:00, run_end_date=2023-05-31 19:34:59.106178+00:00, run_duration=8.27911, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:33:44.614201+00:00, data_interval_end=2023-05-31 19:33:44.614201+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:34:59,109 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:36:02,612 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:39:00,802 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:38:59.758546+00:00 [scheduled]>
+2023-05-31 19:39:00,806 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:39:00,806 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:38:59.758546+00:00 [scheduled]>
+2023-05-31 19:39:00,808 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:38:59.758546+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:39:00,808 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:38:59.758546+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:39:00,838 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:38:59.758546+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:39:06,469 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:38:59.758546+00:00 exited with status success for try_number 1
+2023-05-31 19:39:06,473 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:38:59.758546+00:00, map_index=-1, run_start_date=2023-05-31 19:39:05.616947+00:00, run_end_date=2023-05-31 19:39:06.072566+00:00, run_duration=0.455619, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:39:00.806903+00:00, queued_by_job_id=1, pid=42360
+2023-05-31 19:39:06,545 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:38:59.758546+00:00: manual__2023-05-31T19:38:59.758546+00:00, state:running, queued_at: 2023-05-31 19:38:59.763909+00:00. externally triggered: True> failed
+2023-05-31 19:39:06,546 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:38:59.758546+00:00, run_id=manual__2023-05-31T19:38:59.758546+00:00, run_start_date=2023-05-31 19:39:00.726962+00:00, run_end_date=2023-05-31 19:39:06.546073+00:00, run_duration=5.819111, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:38:59.758546+00:00, data_interval_end=2023-05-31 19:38:59.758546+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:39:06,548 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:40:39,925 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:40:39,925 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:40:39,925 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:40:39,927 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:33:44.614201+00:00', try_number=3, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:40:39,927 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:40:39,968 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:40:42,269 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:33:44.614201+00:00 exited with status success for try_number 3
+2023-05-31 19:40:42,274 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:33:44.614201+00:00, map_index=-1, run_start_date=2023-05-31 19:40:41.709635+00:00, run_end_date=2023-05-31 19:40:41.915650+00:00, run_duration=0.206015, state=failed, executor_state=success, try_number=3, max_tries=2, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:40:39.925923+00:00, queued_by_job_id=1, pid=42927
+2023-05-31 19:40:42,325 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:33:44.614201+00:00: manual__2023-05-31T19:33:44.614201+00:00, state:running, queued_at: 2023-05-31 19:40:39.448771+00:00. externally triggered: True> failed
+2023-05-31 19:40:42,325 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:33:44.614201+00:00, run_id=manual__2023-05-31T19:33:44.614201+00:00, run_start_date=2023-05-31 19:40:39.854495+00:00, run_end_date=2023-05-31 19:40:42.325349+00:00, run_duration=2.470854, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:33:44.614201+00:00, data_interval_end=2023-05-31 19:33:44.614201+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:40:42,327 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:41:02,643 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:41:19,520 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:41:19,520 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:41:19,521 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:33:44.614201+00:00 [scheduled]>
+2023-05-31 19:41:19,524 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:33:44.614201+00:00', try_number=4, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:41:19,524 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:41:19,554 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:33:44.614201+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:41:21,781 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:33:44.614201+00:00 exited with status success for try_number 4
+2023-05-31 19:41:21,785 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:33:44.614201+00:00, map_index=-1, run_start_date=2023-05-31 19:41:21.187411+00:00, run_end_date=2023-05-31 19:41:21.398576+00:00, run_duration=0.211165, state=failed, executor_state=success, try_number=4, max_tries=3, job_id=6, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:41:19.521741+00:00, queued_by_job_id=1, pid=43160
+2023-05-31 19:41:21,818 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:33:44.614201+00:00: manual__2023-05-31T19:33:44.614201+00:00, state:running, queued_at: 2023-05-31 19:41:19.351969+00:00. externally triggered: True> failed
+2023-05-31 19:41:21,819 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:33:44.614201+00:00, run_id=manual__2023-05-31T19:33:44.614201+00:00, run_start_date=2023-05-31 19:41:19.450467+00:00, run_end_date=2023-05-31 19:41:21.819345+00:00, run_duration=2.368878, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:33:44.614201+00:00, data_interval_end=2023-05-31 19:33:44.614201+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:41:21,821 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:43:49,321 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:43:48.993592+00:00 [scheduled]>
+2023-05-31 19:43:49,321 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:43:49,321 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:43:48.993592+00:00 [scheduled]>
+2023-05-31 19:43:49,323 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:43:48.993592+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:43:49,323 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:43:48.993592+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:43:49,351 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:43:48.993592+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:43:51,628 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:43:48.993592+00:00 exited with status success for try_number 1
+2023-05-31 19:43:51,631 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:43:48.993592+00:00, map_index=-1, run_start_date=2023-05-31 19:43:50.990591+00:00, run_end_date=2023-05-31 19:43:51.255814+00:00, run_duration=0.265223, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:43:49.321994+00:00, queued_by_job_id=1, pid=44050
+2023-05-31 19:43:51,697 ERROR - Marking run <DagRun extract_dag @ 2023-05-31 19:43:48.993592+00:00: manual__2023-05-31T19:43:48.993592+00:00, state:running, queued_at: 2023-05-31 19:43:49.003924+00:00. externally triggered: True> failed
+2023-05-31 19:43:51,697 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:43:48.993592+00:00, run_id=manual__2023-05-31T19:43:48.993592+00:00, run_start_date=2023-05-31 19:43:49.241960+00:00, run_end_date=2023-05-31 19:43:51.697491+00:00, run_duration=2.455531, state=failed, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:43:48.993592+00:00, data_interval_end=2023-05-31 19:43:48.993592+00:00, dag_hash=d02a71d0a983e31abc5645414e98f3df
+2023-05-31 19:43:51,699 INFO - Setting next_dagrun for extract_dag to None, run_after=None
+2023-05-31 19:46:02,673 INFO - Resetting orphaned tasks for active dag runs
+2023-05-31 19:47:21,756 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:47:20.306062+00:00 [scheduled]>
+2023-05-31 19:47:21,756 INFO - DAG extract_dag has 0/16 running and queued tasks
+2023-05-31 19:47:21,756 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2023-05-31T19:47:20.306062+00:00 [scheduled]>
+2023-05-31 19:47:21,758 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2023-05-31T19:47:20.306062+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2023-05-31 19:47:21,758 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:47:20.306062+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:47:21,785 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2023-05-31T19:47:20.306062+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2023-05-31 19:47:26,744 INFO - Executor reports execution of extract_dag.extract_task run_id=manual__2023-05-31T19:47:20.306062+00:00 exited with status success for try_number 1
+2023-05-31 19:47:26,749 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2023-05-31T19:47:20.306062+00:00, map_index=-1, run_start_date=2023-05-31 19:47:24.213660+00:00, run_end_date=2023-05-31 19:47:26.393016+00:00, run_duration=2.179356, state=success, executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-05-31 19:47:21.757150+00:00, queued_by_job_id=1, pid=45400
+2023-05-31 19:47:26,820 INFO - Marking run <DagRun extract_dag @ 2023-05-31 19:47:20.306062+00:00: manual__2023-05-31T19:47:20.306062+00:00, state:running, queued_at: 2023-05-31 19:47:20.313547+00:00. externally triggered: True> successful
+2023-05-31 19:47:26,820 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2023-05-31 19:47:20.306062+00:00, run_id=manual__2023-05-31T19:47:20.306062+00:00, run_start_date=2023-05-31 19:47:21.687091+00:00, run_end_date=2023-05-31 19:47:26.820854+00:00, run_duration=5.133763, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-05-31 19:47:20.306062+00:00, data_interval_end=2023-05-31 19:47:20.306062+00:00, dag_hash=96fd0cc6c4ea93227ce54e8fbfa6e4e2
+2023-05-31 19:47:26,822 INFO - Setting next_dagrun for extract_dag to None, run_after=None
